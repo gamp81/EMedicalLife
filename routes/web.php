@@ -28,10 +28,13 @@ Route::get('/contact', function () {
 Route::get('/shop', function () {
     return view('shop');
 });
+Route::get('/shop-single', function () {
+    return view('shop-single');
+});
 Auth::routes(['verify' => true]);
 // Private Routes
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/1home', [App\Http\Controllers\HomeController::class, 'index'])->name('1home');
     Route::get('/without/breadcrumbs', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 });
 

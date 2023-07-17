@@ -9,7 +9,7 @@
     <meta name="copyright" content="GMITI">
     <meta name="author" content="Moncada G">
     <meta name="audience" content="all">
-    <meta name="description" content="Soluciones informaticas, sistema de facturacion , sistema de laboratorios clinicos">
+    <meta name="description" content="Soluciones médicas, mantenimiento equipo médico ,insumos médicos y repuestos">
     <meta name="robots" content="index,all,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
@@ -76,6 +76,9 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact">Contacto</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/login">Intranet</a>
                             </li>
                         </ul>
                     </div>
