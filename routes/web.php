@@ -34,8 +34,8 @@ Route::get('/shop-single', function () {
 Auth::routes(['verify' => true]);
 // Private Routes
 Route::group(['middleware' => ['auth']], function () {
-    Route::get('/1home', [App\Http\Controllers\HomeController::class, 'index'])->name('1home');
-    Route::get('/without/breadcrumbs', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
+    Route::get('/tablero', [App\Http\Controllers\HomeController::class, 'index'])->name('tablero');
+    Route::get('/without/breadcrumbs', [App\Http\Controllers\HomeController::class, 'about'])->name('about1');
 });
 
 Route::fallback(function () {

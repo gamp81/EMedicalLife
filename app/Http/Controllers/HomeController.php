@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index() {
-        return view('1home');
+        return view('tablero');
     }
     public function about() {
         return view('without');

@@ -77,9 +77,16 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/contact">Contacto</a>
                             </li>
+                            @auth
                             <li class="nav-item">
-                                <a class="nav-link" href="/login">Intranet</a>
+                                <a class="nav-link" href="/tablero">Dashboard</a>
                             </li>
+                            @else
+                            <li class="nav-item">
+                                <a class="nav-link" href="{{ route('login') }}">Intranet</a>
+                                
+                            </li>
+                            @endauth
                         </ul>
                     </div>
                     <div class="navbar align-self-center d-flex">

@@ -24,13 +24,13 @@
             <div class="col-md-4 pt-5">
                 <h2 class="h2 text-light border-bottom pb-3 border-light">Products</h2>
                 <ul class="list-unstyled text-light footer-link-list">
-                    <li><a class="text-decoration-none" href="#">Luxury</a></li>
-                    <li><a class="text-decoration-none" href="#">Sport Wear</a></li>
-                    <li><a class="text-decoration-none" href="#">Men's Shoes</a></li>
-                    <li><a class="text-decoration-none" href="#">Women's Shoes</a></li>
-                    <li><a class="text-decoration-none" href="#">Popular Dress</a></li>
-                    <li><a class="text-decoration-none" href="#">Gym Accessories</a></li>
-                    <li><a class="text-decoration-none" href="#">Sport Shoes</a></li>
+                    <li><a class="text-decoration-none" href="#">Pulsosimetros</a></li>
+                    <li><a class="text-decoration-none" href="#">Estetoscopios</a></li>
+                    <li><a class="text-decoration-none" href="#">Tensiometros</a></li>
+                    <li><a class="text-decoration-none" href="#">Camas Hospitalarias</a></li>
+                    <li><a class="text-decoration-none" href="#">Camillas</a></li>
+                    <li><a class="text-decoration-none" href="#">Sillas de ruedas</a></li>
+                    <li><a class="text-decoration-none" href="#">Cuidados Intensivos</a></li>
                 </ul>
             </div>
 
